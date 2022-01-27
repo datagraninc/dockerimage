@@ -8,4 +8,4 @@ ENV LANG=en_US.UTF-8 \
     LC_ALL=en_US.UTF-8
 
 RUN /usr/local/bin/python -m pip install --upgrade pip
-RUN pip install sklearn numpy pandas tensorflow scipy keras statsmodels gensim torch xgboost click pyarrow
+RUN pip install sklearn numpy pandas tensorflow scipy keras statsmodels gensim torch xgboost click pyarrow joblib dill cloudpickle
